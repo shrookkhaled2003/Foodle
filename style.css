@@ -738,3 +738,205 @@ body {
         transform: none;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .container1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin-top: 22px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .img-container {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .row1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        padding: 10px 0;
+    }
+
+    .row2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .row2 img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .row2 h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .row3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+
+    .buy, .order {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buy i, .order i {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .row1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .row2 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .row2 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .row2 h4 {
+        font-size: 16px;
+    }
+
+    .row3 {
+        margin-top: 15px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .buy, .order {
+        width: 130px;
+        height: 35px;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .row1 {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .row2 img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .row2 h4 {
+        font-size: 14px;
+    }
+
+    .row3 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .buy, .order {
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buy i, .order i {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .big-titles {
+        flex-direction: column;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .big-titles .title1 {
+        width: 100%;
+        font-size: 70px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .big-titles .description {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .big-titles {
+        padding: 5px;
+    }
+
+    .big-titles .title1 {
+        font-size: 50px;
+        padding: 5px 0;
+    }
+
+    .big-titles .description {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .big-titles {
+        margin-top: 50px;
+        padding: 5px;
+    }
+
+    .big-titles .title1 {
+        font-size: 30px;
+    }
+
+    .big-titles .description {
+        font-size: 14px;
+    }
+}
+
